@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const wish = `Chúc cô tất cả trừ vất vả, đừng để mấy con rắn bắt nạt nhé. Nhanh giàu thành phú bà nhé, lúc đấy đừng quên anh đấy nhé. Né mấy thằng tồi ra nhé, còn yêu mấy thằng nhạt nhạt như mấy con "cua" thì cũng được nhé. Cảm ơn em gái rất nhiều trong thời gian vừa qua.`;
+const wish = `Chúc cô tất cả trừ vất vả, đừng để mấy con rắn bắt nạt nhé. Nhanh giàu thành phú bà nhé, lúc đấy đừng quên anh đấy nhé. Né mấy thằng tồi ra nhé, còn yêu mấy thằng nhạt nhạt như mấy con "cua" thì cũng được nhé. Cảm ơn em gái rất nhiều đã giúp a trong thời gian vừa qua.`;
 
 export default function BirthdayWish({ onReplay }: { onReplay: () => void }) {
   const [text, setText] = useState("");
